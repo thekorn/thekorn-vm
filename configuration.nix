@@ -31,6 +31,7 @@
     withUWSM = true;
     xwayland.enable = true;
   };
+  services.getty.autologinUser = "thekorn";
 
   # Configure keymap in X11
   # services.xserver.xkb.layout = "us";
