@@ -76,6 +76,7 @@
     neovim
     ripgrep
     nodejs
+    adwaita-icon-theme
   ];
 
   fonts.packages = with pkgs; [
